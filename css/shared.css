@@ -1,0 +1,163 @@
+/* Core style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: rgb(38, 37, 37);
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* navigation style */
+
+.navigation-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background-image: linear-gradient(to top right,white -80% ,blue  90%,white  );
+    border-radius: 0.625rem;
+    border: 0.3125rem solid rgba(38, 191, 251, 0.606);
+    position: sticky;
+    top: 0px;
+    margin-right: 2.25rem;
+    margin-left: 1.25rem;
+    padding: 0 1.25rem;
+}
+
+.navigation-item h5 {
+    position: relative;
+    font-size: 2.5rem;
+    top: 10px;
+    color: rgb(220, 220, 220);
+}
+
+.navigation-item h1 {
+    font-size: 5rem;
+    color: rgb(220, 220, 220);
+}
+
+.navigation-item .sms-icon {
+    font-size: 1.5625rem;
+    position: relative;
+    top: -25px;
+    left: 73px;
+}
+
+.navigation-item  i {
+    font-size: 2.5rem;
+    color: rgb(220, 220, 220);
+    margin-right: 1.25rem;
+    position: relative;
+    top: -7px;
+}
+
+.navigation-item  i:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.navigation-item > img{
+    width: 50px;
+}
+
+@media only screen and (max-width: 992px){
+/* navigation style */
+.navigation-items {
+    height: 100px;
+}
+
+.navigation-item h5 {
+    font-size: 1.5rem;
+    top: 2px;
+}
+
+.navigation-item h1 {
+    font-size: 3rem;
+    position: relative;
+    top: 10px;
+}
+
+.navigation-item .sms-icon {
+    font-size: 1.25rem;
+    top: -20px;
+    left: 65px;
+}
+
+.navigation-item  i {
+    font-size: 2rem;
+    margin-right: 1.15rem;
+}
+
+.navigation-item > img{
+    width: 40px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+/* navigation style */
+.navigation-items {
+    height: 80px;
+}
+
+.navigation-item h5 {
+    font-size: 1rem;
+    top: 0;
+}
+
+.navigation-item h1 {
+    font-size: 2rem;
+}
+
+.navigation-item .sms-icon {
+    font-size: 1rem;
+    top: -14px;
+    left: 58px;
+}
+
+.navigation-item  i {
+    font-size: 1.5rem;
+    top: -2px;
+}
+
+.navigation-item > img{
+    width: 30px;
+}
+    
+}
+
+@media only screen and (max-width: 576px){
+/* navigation style */
+.navigation-items {
+    height: 60px;
+}
+
+.navigation-item h5 {
+    font-size: 0.65rem;
+}
+
+.navigation-item h1 {
+    font-size: 1.25rem;
+}
+
+.navigation-item .sms-icon {
+    font-size: 0.5rem;
+    top: -11px;
+    left: 42px;
+}
+
+.navigation-item  i {
+    font-size: 0.85rem;
+    top: -4px;
+}
+
+.navigation-item > img{
+    width: 20px;
+}
+}
+

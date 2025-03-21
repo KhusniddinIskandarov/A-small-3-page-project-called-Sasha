@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Contacts page</title>
+    <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <!-- Header section -->
+    <div class="container">
+        <div class="main-header">
+          <div class="main-navigation">
+            <div class="navigation-items">
+              <div class="navigation-item">
+                <h5>Добро пожаловать:</h5>
+                <h1>Саша</h1>
+              </div>
+              <div class="navigation-item">
+                <span>
+                  <i class="fa-solid fa-comment-sms sms-icon"></i>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                </span>
+                <img
+                src="../images/russia-flag-circular-17765.svg"
+                alt="Russian flag icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Header section -->
+
+      <!-- Arrow left icon -->
+      <section class="arrow-section">
+        <div class="left-icon">
+            <i class="fa-solid fa-arrow-left" id="ortga"></i>
+            <span>Назад</span>
+        </div>
+
+       </section>
+      <!--/ Arrow left icon -->
+            
+       <!-- Contact section -->
+        <section class="contact">
+          <h1 class="contact-heading1">Контакты</h1>
+            <ul class="contact-navigation__items">           
+              <li class="contact-navigation__item">
+                   <i class="fa-solid fa-phone-volume"></i>
+                   <span>Телефон</span>
+              </li>
+              <li class="contact-navigation__item">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Инстаграм</span>
+              </li>
+              <li class="contact-navigation__item">
+                <i class="fa-brands fa-telegram"></i>
+                <span>Телеграм</span>
+              </li>
+              <li class="contact-navigation__item">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>FarNexDev</span>
+              </li>
+              <li class="contact-navigation__item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Адрес:</span>
+            </li>
+            </ul>
+        </section>
+       <!--/ Contact section -->
+
+       <!-- Js -->
+        <script>
+          const linkOrtga = document.getElementById('ortga')
+          
+          linkOrtga.addEventListener('click', () => {
+            window.location.href="../html/all.html"
+          })
+        </script>
+</body>
+</html>

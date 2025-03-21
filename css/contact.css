@@ -1,0 +1,93 @@
+
+/* Arrow left section */
+.arrow-section {
+    margin: 1.875rem 1.25rem 0;
+
+}
+.left-icon {
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.left-icon  i {
+    color: rgba(255, 255, 255, 0.77);
+    background-color: blue;
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    margin-right: 0.9375rem;
+}
+
+.left-icon i:hover {
+    background-color: red;
+    color: white;
+}
+
+.left-icon span {
+    font-size: 3.125rem;
+    color: rgba(255, 255, 255, 0.77);
+}
+
+/* Contact section */
+.contact {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading1 {
+    color: rgba(255, 255, 255, 0.742);
+    font-size: 3.625rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+
+.contact-navigation__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contact-navigation__item {
+    background-color: black;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 3.125rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-navigation__item i {
+    background-color: white;
+    padding: 0.625rem;
+    border-radius: 50%;
+    margin-right: 0.9375rem;
+    margin-top: 0.5rem;
+    font-size: 1.5625rem;
+    position: relative;
+    top: -4px;
+}
+
+.contact-navigation__item i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.contact-navigation__item span {
+    width: 100px;
+    background-color: white;
+    padding: 0.625rem 15rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 3.125rem;
+} 
+
+.contact-navigation__item span:hover {
+    color: red;
+    cursor: pointer;
+}
